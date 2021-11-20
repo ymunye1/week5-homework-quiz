@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.time-section{
+    position: ;
+
+}
+
+.start_button{
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+.start_button button{
+font-size: 20px;
+
+}
