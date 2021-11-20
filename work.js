@@ -43,6 +43,7 @@ var  instructions= document.querySelector('.instruction')
   //redirect to next page
 
 
+  
 
 
 // user clicks button to submit initials

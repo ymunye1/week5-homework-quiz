@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: lightskyblue;
+
+}
+
 h1{
     text-align:center;
 }
@@ -17,10 +22,15 @@ h1{
     position: absolute;
     top: 50%;
     left: 45%;
+    transform: translate(-50%, -50%);
 }
 
 .start_button button{
     font-size: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+
 }
 
 .time-section{
@@ -33,4 +43,9 @@ h1{
     padding-left: 20px;
     padding-top: 30px;
 
+}
+
+.question1{
+    width: 600px;
+    
 }
