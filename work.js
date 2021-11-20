@@ -3,8 +3,8 @@
 
 // // variables to reference DOM elements
 
-var instructions = document.querySelector('.start_button')
-var button = document.querySelector('.instruction')
+var button = document.querySelector('.start_button')
+var  instructions= document.querySelector('.instruction')
 
 //function to get the quiz going 
 
@@ -46,10 +46,14 @@ var button = document.querySelector('.instruction')
 
 
 // user clicks button to submit initials
+function deleteInfoBtn() {
+    button.remove()
+    instructions.remove()
 
+}
 
 // user clicks button to start quiz
 var startquiz = function () {
   console.log('I have been clicked'); 
 }
-button.addEventListener('click', );
+button.addEventListener('click', deleteInfoBtn );
