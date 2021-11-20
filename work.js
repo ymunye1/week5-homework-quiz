@@ -1,8 +1,10 @@
-// variables to keep track of quiz state
+// // variables to keep track of quiz state
+// var count = 75
 
+// // variables to reference DOM elements
 
-// variables to reference DOM elements
-
+var instructions = document.querySelector('.start_button')
+var button = document.querySelector('.instruction')
 
 //function to get the quiz going 
 
@@ -47,3 +49,7 @@
 
 
 // user clicks button to start quiz
+var startquiz = function () {
+  console.log('I have been clicked'); 
+}
+button.addEventListener('click', );

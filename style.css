@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
-.time-section{
-    position: ;
+h1{
+    text-align:center;
+}
 
+.instruction p{
+    text-align: center;
+    margin-top: 25em;
 }
 
 .start_button{
@@ -16,6 +20,17 @@
 }
 
 .start_button button{
-font-size: 20px;
+    font-size: 20px;
+}
+
+.time-section{
+    margin-left: 80%;
+    
+}
+
+.highscore{
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 30px;
 
 }
