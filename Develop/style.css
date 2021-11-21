@@ -21,17 +21,14 @@ h1{
 .start_button{
     position: absolute;
     top: 50%;
-    left: 45%;
+    left: 48%;
     transform: translate(-50%, -50%);
 }
 
-.start_button button{
+input{
     font-size: 20px;
-    outline: none;
-    border: none;
-    border-radius: 5px;
-
 }
+
 
 .time-section{
     margin-left: 80%;
@@ -45,7 +42,20 @@ h1{
 
 }
 
-.question1{
-    width: 600px;
-    
+/* .choices_list {
+    /* display: flex; */
+    margin-bottom: 0.8rem;
+    width: 100%;
+    border-radius: 4px;
+    background: rgb(18, 93, 255);
+    font-size: 3rem;
+    min-width: 80rem;
+}    */
+
+.choice_list {
+    cursor: pointer;
+}
+
+.question-text{
+ 
 }
