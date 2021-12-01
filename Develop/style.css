@@ -30,7 +30,7 @@ input{
 }
 
 
-.time-section{
+#time-section{
     margin-left: 80%;
     
 }
@@ -56,7 +56,20 @@ input{
     cursor: pointer;
 }
 
-.container{
+.container,
+.buttons{
     margin-left: 5%;
     margin-top: 10%;
+}
+
+ol{
+    position: relative;
+    padding: 0 1.5rem;
+    color: Orgb(1,73,73);
+}
+
+span {
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1em;
 }
